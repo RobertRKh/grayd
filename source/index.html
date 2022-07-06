@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Интернет-магазин кофейных напитков Drink2Go</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page__body">
+
+  <header class="page-header">
+    <nav class="main-nav">
+      <a class="logo">
+        <img class="logo__img" src="img/logo.svg" width="32" height="36" alt="Логотип интернет-магазина кофейных напитков Drink2Go.">
+      </a>
+      <ul class="site-navigation">
+        <li class="site-navigation__item">
+          <a class="site-navigation__link site-navigation__link--active">Главная</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link">Каталог</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link">Доставка</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#" class="site-navigation__link">О нас</a>
+        </li>
+      </ul>
+      <ul class="user-navigation">
+        <li class="user-navigation__item">
+          <a href="#" class="user-navigation__link sistem-link">
+            <div class="user-navigation-item__img-container">
+
+            </div>
+            <span class="sistem-link__caption">Войти</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="sistem-navigation">
+        <li class="sistem-navigation__item">
+          <a href="#" class="sistem-navigation__link sistem-link">
+            <div class="sistem-navigation-item__img-container">
+
+            </div>
+            <span class="sistem-link__caption">Корзина</span>
+          </a>
+        </li>
+      </ul>
+      <button class="toggle-menu" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+        <span class="toggle-menu__lines"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Главная страница интернет-магазина кофейных напитков Drink2Go</h1>
+    <section class="promo">
+      <h2 class="visually-hidden">Самые популярные напитки</h2>
+      <div class="slider">
+        <img class="slider__img" src="img/slide-1" alt="Декаф Флэт Уайт.">
+        <h2 class="slider__title">Декаф Флэт Уайт</h2>
+        <p class="slider__description">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
+        <div class="price">
+          <div class="price__old">295</div>
+          <div class="price__new">225</div>
+        </div>
+        <button class="button" type="button">Заказать</button>
+      </div>
+    </section>
+    <section class="advantages">
+      <h2 class="section-title">Преимущества</h2>
+      <h3 class="section-description">Главные причины выбрать Drink2Go</h3>
+      <ul class="advantages-list">
+        <li class="advantages-list__item">
+          <div class="advantages-list__img"></div>
+          <h4 class="advantages-list__title">Скорость</h4>
+          <p class="advantages-list__description">Готовый напиток всегда под рукой — просто открой банку</p>
+        </li>
+        <li class="advantages-list__item">
+          <div class="advantages-list__img"></div>
+          <h4 class="advantages-list__title">Удобство</h4>
+          <p class="advantages-list__description">Легко помещается и в карман, и в маленькую сумочку</p>
+        </li>
+        <li class="advantages-list__item">
+          <div class="advantages-list__img"></div>
+          <h4 class="advantages-list__title">Бодрость</h4>
+          <p class="advantages-list__description">Сбалансированная доза кофеина даст мощный заряд энергии</p>
+        </li>
+        <li class="advantages-list__item">
+          <div class="advantages-list__img"></div>
+          <h4 class="advantages-list__title">Экологичность</h4>`
+          <p class="advantages-list__description">Вся упаковка сделана из перерабатываемых материалов</p>
+        </li>
+      </ul>
+    </section>
+    <section class="catalog">
+      <h2 class="section-title">Каталог</h2>
+      <h3 class="section-description">Каталог кофейных напитков</h3>
+      <form class="form-catalog" action="https://echo.htmlacademy.ru/" method="post">
+        <fieldset class="form-catalog__fieldset">
+          <legend class="form-catalog__legend">Цена</legend>
+          <div class="form-range">
+            <div class="form-range__wrapper-label">
+              <label class="form-range__label">
+                <input class="form-range__input" type="number" placeholder="0" name="min-price"><span
+                  class="visually-hidden">от</span>
+              </label>
+              <label class="form-range__label">
+                <input class="form-range__input" type="number" placeholder="9000" name="max-price"><span
+                  class="visually-hidden">до</span>
+              </label>
+            </div>
+            <div class="form-range__scale">
+              <div class="form-range__bar" style="left: 0px; width: 235px">
+                <button class="form-range__toggle form-range__toggle--min" type="button">
+                  <span class="visually-hidden">Изменить минимальную цену</span>
+                </button>
+                <button class="form-range__toggle form-range__toggle--max" type="button">
+                  <span class="visually-hidden">Изменить максимальную цену</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <section class="contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+
+  </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
