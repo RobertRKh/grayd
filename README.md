@@ -4,4 +4,3 @@
 - Запуск: `npm lint`
 
 Тестирует Stylelint и EditorConfig.
-
